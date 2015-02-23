@@ -20,10 +20,20 @@ messagebox.showinfo("Welcome",
                     "You choose one of the 5 abilities " + \
                     "and go up against this program.")
                     
-comp = random.randrange(0,4)
-user = simpledialog.askinteger("Choose your ability.",
+
+
+while winner == None:
+                    user = simpledialog.askinteger("Choose your ability.",
                                "Enter 0 for rock, 1 for Spock, " +\
                                "2 for paper, 3 for lizard " +\
                                "and 4 for scissors.")
-while winner == None:
-                    
+                    comp = random.randrange(0,4)
+                    if user == 2 and comp == 0:
+                                        winner = user
+                    elif user ==
+                                        
+                                        
+                                        
+
+if winner != None
+messagebox.showinfo("Winner", "The winner is {}".format(winner))
