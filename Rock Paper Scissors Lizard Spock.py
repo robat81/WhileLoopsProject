@@ -44,6 +44,30 @@ while winner == None:
                                         winner = user
                     elif user == 3 and comp == 1:
                                         winner = user
+                    elif user == 1 and comp == 4:
+                                        winner = user
+                    elif user == 4 and comp == 3:
+                                        winner = user
+                    elif user == 3 and comp == 2:
+                                        winner = user
+                    elif user == 2 and comp == 1:
+                                        winner = user
+                    elif user == 1 and comp == 0:
+                                        winner = user
+                    elif user == 3 and comp == 0:
+                                        winner = comp
+                    elif user == 1 and comp == 3:
+                                        winner = comp
+                    elif user == 4 and comp == 1:
+                                        winner = comp
+                    elif user == 3 and comp == 4:
+                                        winner = comp
+                    elif user == 2 and comp == 3:
+                                        winner = comp
+                    elif user == 1 and comp == 2:
+                                        winner = comp
+                    elif user == 0 and comp == 1:
+                                        winner = comp
                     else:
                                         messagebox.showinfo("Draw", "The game " +\
                                         "is a draw. Try again.")
